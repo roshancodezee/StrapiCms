@@ -1,0 +1,16 @@
+.media-lab-btn .media-btn {
+  position: absolute;
+  top: 34px;
+  z-index: 55;
+  right: 20px;
+}
+
+.media-lab-btn > div {
+  position: relative;
+}
+
+@media (max-width: 1200px) {
+  .media-lab-btn .media-btn {
+    top: -4px;
+  }
+}
